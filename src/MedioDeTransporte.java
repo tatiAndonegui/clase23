@@ -8,7 +8,7 @@ private double capacidad;
 private Dimension dimension;
 private int cantidadMaxima;
 
-    MedioDeTransporte(double capidadMaxima,
+    MedioDeTransporte(double capacidadMaxima,
                       Dimension dimension,
                       int cantidadMaxima){
         setTransportables(new ArrayList<ObjetoTransportable>());
