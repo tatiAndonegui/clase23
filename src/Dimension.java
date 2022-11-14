@@ -28,6 +28,8 @@ public class Dimension {
         this.profundidad = profundidad;
     }
     Dimension(double ancho,double altura, double profundidad){
-        
+        setAncho(ancho);
+        setAltura(altura);
+        setProfundidad(profundidad);
     }
 }
