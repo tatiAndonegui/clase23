@@ -57,4 +57,9 @@ private int cantidadMaxima;
     public void setCantidadMaxima(int cantidadMaxima) {
         this.cantidadMaxima = cantidadMaxima;
     }
+
+    public void cargar(ObjetoTransportable transportable) {
+        if (getTransportables().size() >= getCantidadMaxima()) return;
+        getTransportables().add(transportable);
+    }
 }

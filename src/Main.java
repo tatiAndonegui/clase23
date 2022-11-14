@@ -15,6 +15,20 @@ public class Main {
                 new Dimension(1.4,1,0.2),
                 false);
 
-      
+        ObjetoTransportable sillaDeMetal = new ObjetoTransportable(
+                "silla metal", 2.0,
+                new Dimension(0.4,1,0.4),
+                false);
+
+        ObjetoTransportable televisorViejo = new ObjetoTransportable(
+                "tlc sin pulgadas", 8.0,
+                new Dimension(1.4,1,0.2),
+                false);
+
+        camionDisponible.cargar(silla);
+        camionDisponible.cargar(televisor);
+        camionDisponible.cargar(sillaDeMetal);
+        camionDisponible.cargar(televisorViejo);
+
     }
 }
